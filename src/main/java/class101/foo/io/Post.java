@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Document(indexName = "post")
 public class Post {
     @Id
-    private Long id;
+    private String id;
 
     private String content;
 }
