@@ -16,4 +16,4 @@ spring:
   data:
     elasticsearch:
       hosts: 10.146.0.5,10.146.0.2,10.146.0.4,10.146.0.6
-      ports:
+      ports: 9200
